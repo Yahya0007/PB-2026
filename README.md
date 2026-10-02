@@ -4,6 +4,7 @@ Current work: prepare the PenniBlack Collective Monday setup for Monday 5 Octobe
 
 - [Current four-day rollout plan](docs/ROLLOUT_PLAN.md) – reconfirmed 2 October.
 - [Day 1 step-by-step plan](day1/DAY1_PLAN.md) – numbered setup steps, timings and completion points.
+- [Day 1 illustrated manual (PDF)](output/pdf/PenniBlack_Day1_Manual.pdf) – eight chapters with monday.com instructions, client settings, official screenshots and handover checks. [Editable source](day1/DAY1_MANUAL.md).
 - [Day 1 runbook](day1/DAY1_RUNBOOK.md) – agenda, import mapping, decisions and handover checks.
 - [Day 1 import pack](day1/Monday_Day1_Import_Pack.xlsx) – 138 tasks, Now review, venue template and team access decisions.
 - [Main board CSV](day1/Monday_Main_Board_Import.csv) – recommended flat import.

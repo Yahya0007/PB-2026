@@ -6,6 +6,8 @@ Allow **7–8 hours** from the agreed start. Times below are elapsed working tim
 
 Use the [detailed runbook](DAY1_RUNBOOK.md) for column mapping, section counts and acceptance checks. The [four-phase rollout plan](../docs/ROLLOUT_PLAN.md) remains authoritative.
 
+Follow the [illustrated Day 1 manual](../output/pdf/PenniBlack_Day1_Manual.pdf) for monday.com menu steps, client-specific settings and chapter completion checks for all eight items below. Its [editable Markdown source](DAY1_MANUAL.md) includes the same instructions and images. Screens are official vendor references; the client's live workspace has not been verified.
+
 ## Before the session
 
 - [ ] Agree the start time and when the business lead and workspace admin will be available for decisions.
