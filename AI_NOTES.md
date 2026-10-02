@@ -82,3 +82,34 @@ Delivery: the user authorised committing and pushing all completed project work 
 - Retained both source emails: the 1 October message adds venue sourcing; the 2 October reply contains the rollout plan plus quoted history. They overlap but are not duplicate documents.
 - Added the static Start Here limitation to the runbook. The other review points remain valid: tasks 1–4 need completion checks; tasks 45–47 require real venue research; Priority 1 covers 92 tasks, so the agreed Now list matters.
 - This follow-up changes documentation only. No workbook, source email, live board or invitation was changed.
+
+## Day 1 readiness recheck – 2 October 2026
+
+**Preparation is ready for Monday 5 October. Operational readiness remains conditional on the confirmations below.** This review stays within Phase 1. It does not establish that any live board, import, invitation, subscription change or integration has been completed.
+
+Repository check:
+
+- Read the current notes, rollout plan, runbook and master audit before checking the files. Fetched `origin` successfully: local `main` and `origin/main` both pointed to `79923fd`, with no newer commits or divergence at the start of this review.
+- Found one pre-existing local wording edit in the runbook's team-email sentence. Preserved it exactly and excluded it from this review's commit. Only this notes file is changed by this review. Local caches and the temporary validation script are excluded from delivery.
+
+Read-only validation completed:
+
+- Import IDs are exactly 1–138, with no duplicate IDs or task names. All 12 section counts match the master and runbook. Stages remain Now 26, Next 66 and Later 46. Priority counts remain 92 / 40 / 6.
+- Compared all 1,794 main-import data cells plus headers between CSV and XLSX, normalising blank cells and typed dates for CSV comparison. All match. All task names, sections, workstreams, priorities, stages, source timing, owners, statuses and notes reconcile to the master.
+- Import has nine dates (four on 2 October, five on 5 October), compared with ten in the master. Task 9's import date is blank and its original 5 October date remains in the master and Now Review. Rollout notes correctly identify tasks 9 and 128 as Day 2 and task 10 as Day 3.
+- All 26 source Now tasks are in the review sheet. Keep in Now, confirmed owner and agreed date decisions remain blank. All import owners are blank and statuses remain Not started. Suggested owners are discussion inputs only.
+- Team checklist matches all 11 source entries, with three populated source email fields. Decision, agreed role and invitation status fields remain blank. Populated addresses have not been independently verified. Venue template has zero records.
+- The master SHA-256 still matches `a305cfb7790e580a140c80cfdccf7a21b396b0def75ac9beac5195641f2aa5b3`, the exact file covered by the previous native Excel test. No native recalculation was repeated in this review. No stored error cells were found in the import pack. File hashes before and after the checks confirm the master, import pack, CSV and both operational source workbooks were unchanged.
+- Rechecked current official Monday guidance for [Excel/CSV imports and duplicate handling](https://support.monday.com/hc/en-us/articles/360000219209-Import-files-from-Excel), [grouping by one accountable owner](https://support.monday.com/hc/en-us/articles/4452237638546-Group-your-board-by-anything) and [saved filters](https://support.monday.com/hc/en-us/articles/360003624660-The-Board-Filters). The runbook's mapping, ISO dates, Task ID retry matching and saved-view instructions remain supported. Actual workspace behaviour still needs live acceptance checks.
+
+Remaining actions:
+
+| When | Required confirmation or action |
+|---|---|
+| Before the session | Agree the start time and decision-makers' availability; test remote access and the correct workspace; confirm the planned subscription, Admin and Member access; confirm distribution and use of the updated master. |
+| Before inviting or assigning | Agree current invitees, verify existing access and individual emails, collect missing addresses and confirm roles. No invitations have been sent by this review. |
+| Opening decisions | Check completion of tasks 1–4 without changing their original deadlines; confirm task 80's owner and 5 October deadline; agree structure, Now membership, accountable owners and dates. Keep tasks 9/128/10 in their agreed later phases. |
+| Day 1 implementation | Check for an existing board before importing; reconcile IDs and counts; configure columns, groups and saved views; build and review the Venue Pipeline with agreed stages; record actual access/invitation outcomes; complete the walkthrough and runbook acceptance checks. |
+| Day 1 handover | Record board/view links, unresolved decisions with responsible roles and Day 2 inputs. No live links or completed acceptance evidence are currently recorded. |
+
+Start Here is still a static Now snapshot. The live Stage filter becomes the current working list. Priority 1 alone is too broad to replace the agreed Now list. Building an empty Venue Pipeline does not complete venue research. The two operational workbooks remain reference material for Day 1; their data cleanup and later-phase work are unchanged.
