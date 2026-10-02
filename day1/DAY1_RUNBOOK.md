@@ -1,36 +1,145 @@
-# Day 1 Runbook – Core Monday Setup (Mon 5 Oct 2026, ~7–8 hrs)
+# Day 1 runbook – Monday 5 October 2026
 
-Plan: `docs/ROLLOUT_PLAN.md`. Data: `PenniBlack_Collective_Team_and_Tasks_FINAL_1.xlsx` (138 tasks, 12 sections; 26 Now / 66 Next / 46 Later).
-**Aim:** main Monday system live; Cat has something useful to work with straight away.
-**Out of scope for Day 1:** dashboard, availability calendar, targets (Day 2); automations, Claude connection (Day 3).
+Use the [current rollout plan](../docs/ROLLOUT_PLAN.md), reconfirmed on 2 October. Allow 7–8 hours. Start time is to be agreed. The first Tuesday review is 6 October.
 
-## Prep done (in `day1/`)
-- `Monday_Day1_Import_Pack.xlsx`
-  - **Main Board Import** – all 138 tasks, clean columns: Group, Item, Workstream, Priority, Stage (Now/Next/Later), Timing, Due date (only the concrete dates from the plan: 5 Oct / 2 Oct), Owner (blank), Suggested owner (only where the notes say so – confirm), Status, Notes, Task ID.
-  - **Now Review** – the 26 Now tasks with columns to confirm Now / owner / due date live with Charlotte & Cat.
-  - **Venue Pipeline Import** – stages Contacted → Meeting → Trial → On supplier list (Charlotte's order; to confirm), with the working columns.
-  - **Team Invites** – who is planned for Monday and when they start, with a column to confirm.
-- `Monday_Main_Board_Import.csv` – same main board as flat CSV.
-- Day 2 templates (availability + targets) are in `day2/`, not needed today.
+Day 1: task board, import, sections, columns, marketing/brand view, Venue Pipeline, simple Tuesday view by owner, current-team access and a walkthrough. Dashboard, availability and targets belong to Day 2. Automations and Claude belong to Day 3.
 
-## Order of work
-1. **Start (15 min)** – confirm access (Pro, Yahya Member, Cat Admin), remote laptop.
-2. **Main task board** – import `Main Board Import`. Column mapping: Item→Name; Priority, Stage, Status→Status columns; Timing→Text; Due date→Date; Owner→People; Notes→Long text; Task ID→Numbers; Workstream→Dropdown. Group is a column on import, so fix after import: move/colour items into 12 groups (Setup 13 · All Brands 16 · BNC Exhibition 13 · Venue Sourcing 14 · PenniBlack 11 · Free Spirit 12 · Pichi 9 · Raquel's 7 · VENN 4 · Be-Zing 23 · The Edit 5 · Systems & Admin 11).
-3. **Confirm structure changes with Charlotte & Cat** – e.g. Be-Zing as one group or Kids/Youth; BNC & Venue Sourcing as own groups (as in sheet).
-4. **Walk the Now Review sheet** – agree what truly belongs in Now, owners, due dates; apply to the board. Owners are left blank for Cat to allocate.
-5. **Main marketing/brand view** – grouped by brand/section, filters by Priority and Stage; saved views: *Now only*, *Priority 1*, *By owner*.
-6. **Venue Pipeline board** – confirm stages, create board from the pipeline sheet, delete example rows; seed from tasks 45–47 (target list, top 20, how venues pick suppliers). Point of difference note (task 43–44): whole Collective as one supplier – food, drink, styling, staffing, wellness, Latino.
-7. **Tuesday review view** – on the main board: current work (Stage = Now, status not Done) grouped by owner; saved as "Tuesday review".
-8. **Invite team** – using the Team Invites sheet; agree who now. Plan from the Team tab: Cat Admin; Charlotte, Danelle, Ana now; Jessica mid-Oct; Lois end Oct; Alex TBC; Raquel view-only/later.
-9. **Review with Charlotte & Cat** and note changes for Day 2.
+## Files to use
 
-## Items due Mon 5 Oct that aren't Yahya's build
-- Send Momoko (Menier Venues) the Pichi launch attendee list (task 80, Cat).
+- **Monday_Main_Board_Import.csv**: recommended import file. One header row, 138 tasks, 12 sections, stable Task IDs 1–138. UTF-8 with ISO dates.
+- **Monday_Day1_Import_Pack.xlsx**: the same main import, Now decisions, empty Venue Pipeline template and team access decisions. Only Main Board Import goes into the task board; the other tabs support the meeting.
+- **../PenniBlack_Collective_Team_and_Tasks_FINAL_1.xlsx**: preserved master. See [audit results](MASTER_WORKBOOK_AUDIT.md).
 
-## Open questions
-- Structure changes? Immediate owners? Which Now items are real, with due dates?
-- Venue Pipeline stages confirmed? Who to invite today?
-- Free Spirit date (Momoko) and BNC date unresolved – affects tasks 30–33, 68–70.
+The import is a snapshot: refresh it if the master changes before Monday. Once live, Cat maintains the board. These files do not synchronise with Monday.
 
-## Done when
-Main board live with all tasks in groups · Now tasks owned and dated · brand view + Venue Pipeline + Tuesday view exist · people invited · reviewed with Charlotte & Cat.
+## Before starting
+
+- [ ] Agree start time and remote access to Charlotte’s laptop.
+- [ ] Confirm workspace, Pro upgrade, Member login and Cat’s Admin access. These are planned, not verified as completed.
+- [ ] Check whether the task board already exists. Do not import all tasks again blindly.
+- [ ] Have Charlotte and Cat available for structure, owner, Now, date, stage and invite decisions.
+- [ ] Check tasks 1–4, dated Friday 2 October, for completion; do not silently move their deadlines.
+- [ ] Confirm task 80: Cat is named in the notes for sending Momoko the Pichi attendee list, due Monday 5 October.
+
+## Working schedule
+
+Elapsed working time from the agreed start; accommodate short breaks within the allowance.
+
+| Elapsed | Work | Finish with |
+|---|---|---|
+| 0:00–0:30 | Access and structure decisions | Workspace, groups and current invite list agreed |
+| 0:30–2:00 | Main board and import | 138 unique tasks; fields and group counts reconciled |
+| 2:00–3:30 | Review 26 source Now tasks | Agreed Now list, owners and due dates |
+| 3:30–4:15 | Marketing/brand and priority views | Cat can filter by section, stage and priority |
+| 4:15–5:15 | Venue Pipeline | Agreed stages and fields; real venues only if supplied |
+| 5:15–6:00 | Tuesday review | Saved view tested with assigned and unassigned work |
+| 6:00–6:45 | Team access | Invitations and acceptance status recorded |
+| 6:45–7:30 | Walkthrough and checks | Cat can manage tasks; Day 2 inputs recorded |
+| 7:30–8:00 | Allowance | Resolve import, access or decision gaps |
+
+Invite agreed current members early when needed for task assignment; verify acceptance in the later access slot.
+
+## Main board and import
+
+Proposed name: **PenniBlack Collective – Tasks**.
+
+For a new board, select header row 1 and **Item (Task)** as the item-name column. Start with the supported types below, then configure final columns. For an existing board, create the final columns first and map to them. Dates use ISO format. [Monday import instructions](https://support.monday.com/hc/en-us/articles/360000219209-Import-files-from-Excel)
+
+| Source column | New-board import type | Final use |
+|---|---|---|
+| Item (Task) | Item name | Task name |
+| Group | Text | Section labels for moving items into matching board groups |
+| Workstream | Text | Text or Dropdown |
+| Priority | Status | 1 – Money before Christmas; 2 – Build the brands; 3 – Systems (2027) |
+| Stage | Status | Now; Next; Later |
+| Timing (as planned) | Text | Original timing, including broad/provisional periods |
+| Due date | Date | Current deadline; agree missing dates |
+| Owner | Text, blank | Change to People; assign confirmed members |
+| Suggested owner (confirm) | Text | Discussion aid only |
+| Status | Status | Not started; Working on it; Stuck; Done |
+| Notes | Text | Preserve source wording; convert to Long Text |
+| Task ID | Number | Stable reference; do not renumber |
+| Rollout / review note | Text | Scope conflicts and confirmation points |
+
+Move items into these 12 groups, retaining the source Group field:
+
+| Section | Tasks |
+|---|---:|
+| 0. Monday & Claude Setup | 13 |
+| 1. All Brands | 16 |
+| 1b. BNC Exhibition (end Oct) | 13 |
+| 1c. Venue Sourcing | 14 |
+| 2. PenniBlack Catering & Events | 11 |
+| 3. Free Spirit Wellness | 12 |
+| 4. Pichi | 9 |
+| 5. Raquel’s Staffing & Bar | 7 |
+| 6. VENN Productions | 4 |
+| 7. Be-Zing (Kids + Youth) | 23 |
+| 8. The Edit (PBC Edit) | 5 |
+| 9. Systems & Admin | 11 |
+| **Total** | **138** |
+
+Before live decisions: **Now 26, Next 66, Later 46**; **Priority 1 = 92, Priority 2 = 40, Priority 3 = 6**; owners blank and statuses Not started. Record changes agreed on the day. Check IDs 1, 9, 43, 55, 80, 128 and 138, including full notes and dates.
+
+There are nine populated import dates: four on 2 October and five on 5 October. The master has ten. Task 9’s original 5 October deadline remains in the master, source timing, Now Review and rollout note. Its operational import date is blank because the dashboard belongs to Day 2. Agree a new date; do not assume Day 2 means 6 October.
+
+Keep task 128 (availability) for Day 2 and task 10 (Claude connection) for Day 3. All future work remains in the 138-task import; importing an item does not make it a Day 1 build commitment.
+
+On a retry, match by Task ID and **Skip** existing items. Use **Update** only for deliberate changes, since it can overwrite live assignments and statuses. [Duplicate handling](https://support.monday.com/hc/en-us/articles/360000219209-Import-files-from-Excel)
+
+## Now decisions and views
+
+Use **Now Review (agree on the day)**. Source dates and suggested owners are separate from **Keep in Now?**, **Confirmed owner** and **Agreed due date**. Complete those three fields with Cat and Charlotte, then apply decisions to the live board. Blank answers remain unresolved.
+
+Source Now IDs: 1–9, 28, 30–33, 43–45, 48, 55, 57, 59, 68–70, 80 and 128. Review tasks 9 and 128 against Day 2. Priority 1 covers 92 tasks, so the agreed Now list is the practical focus.
+
+| View | Configuration |
+|---|---|
+| Marketing / brands | All tasks in agreed sections; visible Workstream, Priority, Stage, Owner, Status and Due date; filter to selected brand as needed |
+| Now | Stage = Now AND Status is not Done; keep unassigned work visible |
+| Priority 1 | Priority = 1 – Money before Christmas AND Status is not Done |
+| Tuesday review | Stage = Now AND Status is not Done; group by Owner; show section, priority, status and due date; sort by due date and discuss blank dates |
+
+For grouping by Owner, limit the People column to one accountable owner. Keep collaborators in notes. If multiple owners are required, use a per-owner People filter instead. Save the view; test that Done items leave it and unassigned items stay visible. [Group by](https://support.monday.com/hc/en-us/articles/4452237638546-Group-your-board-by-anything), [filters](https://support.monday.com/hc/en-us/articles/360003624660-The-Board-Filters)
+
+## Venue Pipeline
+
+Proposed name: **PenniBlack Collective – Venue Pipeline**. One item represents one real venue. The template is empty because the source contains venue-sourcing tasks, not a confirmed venue list.
+
+Confirm **Contacted → Meeting → Trial → On supplier list**. Use a Stage status column and a view grouped by Stage. Agree how to hold uncontacted, declined or deferred venues; do not call an uncontacted venue Contacted.
+
+Columns: Venue name, Stage, Venue type, Capacity, Current caterer, Contact name, Contact email/phone, How they pick suppliers, Owner, Next action, Next action date and Notes. Owner is People, Capacity is Number, Next action date is Date.
+
+Tasks 45–47 organise the target list, top 20 and supplier research on the main board. They are not venue records. Add actual venues when supplied. Each active lead needs an owner, next action and follow-up date. Mark task 55 complete only after the pipeline is built and reviewed.
+
+## Team access
+
+**Team Invites (confirm)** includes all 11 master entries. Source access/start dates are separate from the Day 1 proposal, decision, verified email, agreed role and invitation status. Check addresses before use.
+
+- Current candidates: Charlotte, Cat, Danelle, Ana etc. Check existing access first. Cat is intended to be Admin and  a Member.
+- Jessica starts mid-October; Lois at the end of October. Confirm whether earlier access is needed.
+- Alex is TBC/when free. Raquel is view-only/later. Jess & Dave and Steph have no Monday access planned.
+- Collect missing individual emails. Ana’s shared sales address is not an established personal login.
+
+## Acceptance and handover
+
+- [ ] 138 unique source Task IDs and all 12 section counts reconciled before agreed additions.
+- [ ] Task wording, notes, priorities, stages and source timing survived import.
+- [ ] Each agreed Now item has an owner and due date, or an explicit unresolved decision with someone responsible for resolving it.
+- [ ] Tasks 9, 128 and 10 follow the current rollout.
+- [ ] Marketing/brand, Now, Priority 1 and Tuesday views saved and tested.
+- [ ] Venue Pipeline built with confirmed stages; live leads have owner, next action and follow-up date. An empty pipeline is acceptable until real venues are supplied.
+- [ ] Current access decisions and invite/acceptance status recorded.
+- [ ] Cat can assign a task, change stage/status, set a date and open Tuesday’s view. Charlotte and Cat have reviewed the setup.
+- [ ] Board links, unresolved actions and Day 2 needs recorded below.
+
+| Handover record | Complete on the day |
+|---|---|
+| Main board link | |
+| Venue Pipeline link | |
+| Tuesday view link | |
+| Open decisions and responsible person | |
+| Cat / Charlotte review completed | |
+| Day 2 date and required inputs | |
+
+Preparation is complete locally. Board creation, invitations, live imports and acceptance remain on-the-day actions.
