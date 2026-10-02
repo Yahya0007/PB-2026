@@ -36,7 +36,7 @@ Use the PDF bookmarks to jump between chapters. Zoom in on screenshots when need
 
 ## Before starting: client files and scope
 
-**Repository:** E:\PB\PB-2026. Use the current main branch files.
+**Repository:** use the repository root on the computer running the session. File paths below are relative to that root. Use the current main branch files.
 
 | File | How to use it |
 |---|---|
@@ -124,7 +124,7 @@ The quote/invoice and staffing workbooks are references only today. Do not impor
 | Stage | Status | Now; Next; Later |
 | Timing (as planned) | Text | Original timing, including provisional periods |
 | Due date | Date | Actual deadline; blank stays unresolved |
-| Owner | Text, blank | Change to People; one accountable owner |
+| Owner | Text, blank | Change to People; confirm ownership model below |
 | Suggested owner (confirm) | Text | Proposal only; never the People assignment |
 | Status | Status | Not started; Working on it; Stuck; Done |
 | Notes | Text | Change to Long Text; verify full text survived |
@@ -139,7 +139,7 @@ Priority labels: **1 - Money before Christmas**, **2 - Build the brands**, **3 -
 
 6. After import, open a column header's **three-dot menu > Change column type** for Owner and Notes. If the needed conversion is unavailable, add the required column with the **+** at the right and verify values before retiring any duplicate column. Owner is blank at baseline.
 7. For each Status-type column, click a cell > **Edit Labels**, enter/check that column's labels, then **Apply**. Configure Stage and Priority separately from task Status. Preserve all imported values; do not bulk-reset existing live work.
-8. Open **Owner header > three dots > Column Settings > Customize People column** and limit ownership to **1** for the Tuesday grouping. Add collaborators to notes where needed.
+8. Confirm the ownership model with the client before setting a limit. Venue Sourcing includes shared work between the Monday operator and the incoming sales/events role. Agree whether each task can have one accountable owner, with collaborators recorded in Notes. If agreed, open **Owner header > three dots > Column Settings > Customize People column** and set the limit to **1** for Tuesday grouping. If joint ownership is required, retain multiple owners and use Chapter 6's per-owner filter route. Record the decision; never remove an existing assignee just to enable grouping.
 
 ![Official reference: import column types](screens/import-column-types.png)
 
@@ -198,7 +198,7 @@ Sources: [Groups](https://support.monday.com/hc/en-us/articles/360011472320-The-
 
 ![Official reference: People column ownership limit](screens/one-owner.png)
 
-**Screen 4.** Choose **1** for the maximum accountable owners. The vendor example has Unlimited selected; change that setting for this client's agreed single-owner model. Source: [People column](https://support.monday.com/hc/en-us/articles/360002281539-The-People-Column).
+**Screen 4.** The vendor example has Unlimited selected. Choose **1** only after the client agrees one accountable owner per task. Shared Venue Sourcing work still needs its collaborators recorded; joint ownership uses the alternative in Chapter 6. Source: [People column](https://support.monday.com/hc/en-us/articles/360002281539-The-People-Column).
 
 - [ ] Each agreed Now item has an owner and due date, or a recorded unresolved action.
 - [ ] New Now additions are included in the live filter. Start Here remains a static snapshot.
@@ -284,7 +284,7 @@ Stage grouping: [Group your board by anything](https://support.monday.com/hc/en-
 **Time:** 5:15-6:00. **First review:** Tuesday 6 October 2026.
 
 1. On the task board, add a Table view and name it **Tuesday review**. Use **Filter > advanced filters** for **Stage is Now AND Status is not Done**. Save the filter to the view.
-2. Check **Owner > three dots > Column Settings > Customize People column > 1**. Then select **Group by > Owner**. If the client requires multiple accountable owners, agree a per-owner People filter instead and retain an all-Now view for unassigned work.
+2. Follow the ownership decision from Chapter 2. For one accountable owner, check **Owner > three dots > Column Settings > Customize People column > 1**, then select **Group by > Owner**. For joint ownership, keep multiple owners and use the **Person** filter to review each owner in turn, with the Stage/Status filters retained. Clear Person to review unassigned work; keep the saved all-Now view free of a Person filter. Record which route was agreed.
 3. Show **Group, Priority, Status, Due date and Owner** alongside the task title. Click the toolbar **Sort > Add new sort**, select **Due date** and choose earliest dates first. Save the view's sort using the available Save control; if offered Save as new view, retain a single clearly named Tuesday review view.
 4. Reopen the saved view and check the filter, grouping and sort. Discuss blank due dates explicitly; do not assume where empty dates sort. Avoid a date filter that hides overdue or undated Now tasks.
 5. On a real item whose values have been recorded and whose temporary test is agreed, set Stage to Now and Status to Not started. Confirm it appears; change Status to Done and confirm it disappears; return to Main Table and restore the original values.
