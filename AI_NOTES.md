@@ -113,3 +113,10 @@ Remaining actions:
 | Day 1 handover | Record board/view links, unresolved decisions with responsible roles and Day 2 inputs. No live links or completed acceptance evidence are currently recorded. |
 
 Start Here is still a static Now snapshot. The live Stage filter becomes the current working list. Priority 1 alone is too broad to replace the agreed Now list. Building an empty Venue Pipeline does not complete venue research. The two operational workbooks remain reference material for Day 1; their data cleanup and later-phase work are unchanged.
+
+## Day 1 step-by-step plan – 2 October 2026
+
+- Added `day1/DAY1_PLAN.md` at the user's request and linked it from README. It converts the existing runbook into pre-session checks and eight numbered implementation steps, with elapsed timings and a completion point for each step.
+- Checked the plan against the current rollout and runbook: 7–8 hour allowance, 138 tasks, 12 groups, 26 / 66 / 46 starting stages, task 9/128/10 phase exceptions, static Start Here, proposed versus confirmed owners, empty venue template and outstanding access/logistics confirmations are retained. New narrative uses roles rather than personal names.
+- This is documentation only. No workbook, source record, live board, invitation or integration was changed. The pre-existing runbook edit remains untouched and excluded from this delivery. Relative file links and Git whitespace checks passed before commit.
+- Remaining actions are the pre-session confirmations and live steps in the new plan. Day 2–4 preparation and implementation status is unchanged.
