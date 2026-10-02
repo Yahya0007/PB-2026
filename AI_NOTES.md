@@ -72,3 +72,13 @@ Validation completed: workbook/CSV reconciliation, original master data and styl
 Still to do with Charlotte and Cat: live Monday setup/import, confirm structure/Now/owners/dates/stages, confirm current-team access and invitations, test the saved views and complete the walkthrough. No live Monday board changes or invitations were made in this session. Data cleanup and integrations for the two operational spreadsheets remain future work within the agreed phases.
 
 Delivery: the user authorised committing and pushing all completed project work directly to the repository's primary branch, `main`.
+
+## Follow-up review feedback – 2 October 2026
+
+- Checked the supplied AI review against commit `8e738d2` and the current files. This checkout matched `origin/main`; no pull was required here. Another agent’s older checkout still needs updating before further work.
+- Corrected the garbled Team access sentence: Cat should be Admin, and the setup consultant needs Member access. Clarified that GitHub preparation files are published while live Monday setup is outstanding.
+- Added explicit pre-session checks to agree the start time, test the remote connection, share the updated master with Charlotte and Cat, and collect missing current-invitee emails. These are checklist actions, not claims that contact or setup has happened.
+- Corrected the review’s email claim: the current invite sheet contains Charlotte, Cat and Yahya’s addresses. Other addresses remain blank. Existing addresses and invitations still need verification.
+- Retained both source emails: the 1 October message adds venue sourcing; the 2 October reply contains the rollout plan plus quoted history. They overlap but are not duplicate documents.
+- Added the static Start Here limitation to the runbook. The other review points remain valid: tasks 1–4 need completion checks; tasks 45–47 require real venue research; Priority 1 covers 92 tasks, so the agreed Now list matters.
+- This follow-up changes documentation only. No workbook, source email, live board or invitation was changed.

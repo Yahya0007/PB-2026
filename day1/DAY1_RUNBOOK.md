@@ -14,11 +14,14 @@ The import is a snapshot: refresh it if the master changes before Monday. Once l
 
 ## Before starting
 
-- [ ] Agree start time and remote access to Charlotte’s laptop.
+- [ ] Agree and record the start time with Charlotte and Cat.
+- [ ] Test remote access to Charlotte’s laptop before the session, including screen sharing/control and opening the correct Monday workspace.
 - [ ] Confirm workspace, Pro upgrade, Member login and Cat’s Admin access. These are planned, not verified as completed.
 - [ ] Check whether the task board already exists. Do not import all tasks again blindly.
 - [ ] Have Charlotte and Cat available for structure, owner, Now, date, stage and invite decisions.
 - [ ] Check tasks 1–4, dated Friday 2 October, for completion; do not silently move their deadlines.
+- [ ] Give Charlotte and Cat the current repository copy of `PenniBlack_Collective_Team_and_Tasks_FINAL_1.xlsx` and confirm they use it instead of the earlier circulated copy. The current copy has Task List column K, Due date, and linked Owner/Done fields in Start Here. This sharing has not yet been confirmed.
+- [ ] Collect and verify missing individual emails for agreed Day 1 invitees, especially Danelle and Ana. Check existing access before inviting anyone.
 - [ ] Confirm task 80: Cat is named in the notes for sending Momoko the Pichi attendee list, due Monday 5 October.
 
 ## Working schedule
@@ -91,6 +94,8 @@ On a retry, match by Task ID and **Skip** existing items. Use **Update** only fo
 
 Use **Now Review (agree on the day)**. Source dates and suggested owners are separate from **Keep in Now?**, **Confirmed owner** and **Agreed due date**. Complete those three fields with Cat and Charlotte, then apply decisions to the live board. Blank answers remain unresolved.
 
+The master workbook’s Start Here tab remains a static snapshot of the 1 October Now list. Its Owner and Done fields update, but newly promoted Now tasks do not appear automatically. Use the Task List Stage filter or the live Monday Now view for the current list.
+
 Source Now IDs: 1–9, 28, 30–33, 43–45, 48, 55, 57, 59, 68–70, 80 and 128. Review tasks 9 and 128 against Day 2. Priority 1 covers 92 tasks, so the agreed Now list is the practical focus.
 
 | View | Configuration |
@@ -116,10 +121,11 @@ Tasks 45–47 organise the target list, top 20 and supplier research on the main
 
 **Team Invites (confirm)** includes all 11 master entries. Source access/start dates are separate from the Day 1 proposal, decision, verified email, agreed role and invitation status. Check addresses before use.
 
-- Current candidates: Charlotte, Cat, Danelle, Ana etc. Check existing access first. Cat is intended to be Admin and  a Member.
+- Current candidates: Charlotte, Cat, Danelle and Ana, plus the setup consultant. Check existing access first. Cat is intended to be an Admin; the setup consultant needs Member access.
 - Jessica starts mid-October; Lois at the end of October. Confirm whether earlier access is needed.
 - Alex is TBC/when free. Raquel is view-only/later. Jess & Dave and Steph have no Monday access planned.
 - Collect missing individual emails. Ana’s shared sales address is not an established personal login.
+- The invite sheet already contains source email addresses for Charlotte, Cat and Yahya. Verify them before use; the other address fields are blank. A populated address does not confirm an invitation was sent or access is active.
 
 ## Acceptance and handover
 
@@ -142,4 +148,4 @@ Tasks 45–47 organise the target list, top 20 and supplier research on the main
 | Cat / Charlotte review completed | |
 | Day 2 date and required inputs | |
 
-Preparation is complete locally. Board creation, invitations, live imports and acceptance remain on-the-day actions.
+The preparation files are available on the repository’s `main` branch. Board creation, invitations, live imports and acceptance remain on-the-day actions; the access and logistics checks above are still unconfirmed.

@@ -8,4 +8,6 @@ Current work: prepare the PenniBlack Collective Monday setup for Monday 5 Octobe
 - [Main board CSV](day1/Monday_Main_Board_Import.csv) – recommended flat import.
 - [Master workbook audit](day1/MASTER_WORKBOOK_AUDIT.md) – data preservation and Excel formula checks.
 
-Day 1 preparation is local. Live boards, assignments and invitations remain to be completed with Charlotte and Cat. Day 2 and Day 3 work stays in the phases set out in the current plan.
+Day 1 preparation files are committed and available on GitHub’s `main` branch. Live boards, assignments and invitations remain to be completed with Charlotte and Cat. Confirm access, start time, remote connection and use of the updated master workbook before the session. Day 2 and Day 3 work stays in the phases set out in the current plan.
+
+The source emails serve different purposes: `Update master task list  Venue Sourcing added.txt` is Charlotte’s 1 October venue-sourcing update; `RE Update master task list  Venue Sourcing added.txt` adds the 2 October four-day rollout plan and quotes the earlier email. Both are retained as source records.
