@@ -27,6 +27,8 @@ Working repo for the PenniBlack Collective Monday.com setup (Yahya / InfoVis as 
 ## Change log
 - 2026-10-02: Prepared Day 1 from the master workbook (python/openpyxl). First pass wrongly packed dashboard/availability/targets/Claude into Day 1; corrected after Yahya's rollout plan arrived – those moved to Day 2/3. Added `docs/`, `day1/`, `day2/`, this file. Nothing built in Monday itself (no Monday access here).
 
+- 2026-10-02: Cleaned up `PenniBlack_Collective_Team_and_Tasks_FINAL_1.xlsx` (in place): audit found no stray whitespace, duplicate tasks, or Start Here/Task List mismatches. Changes: (1) Task List gets a **Due date** column K (date-validated, filter extended to A4:K142; pre-filled only for the concrete 2 Oct / 5 Oct timings); (2) Start Here **Owner** and **Done?** are now formulas reading the Task List by ID, so only the Task List needs updating. Formulas verified by inspection only - LibreOffice cannot open xlsx files in this environment, so open in Excel to confirm they calculate.
+
 ## Notes / gotchas
 - Master workbook checked: Task List header is row 4, data rows 5–142, and Summary formulas (rows 5–142) are correct; Owner/Stage/Status dropdowns and filter are in place. (An earlier note claiming an off-by-one was wrong.)
 - "Timing" values are free text (e.g. "Oct–Nov"); only 5 Oct/2 Oct converted to Due dates. Owners intentionally blank; Cat allocates.
