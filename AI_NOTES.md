@@ -2,6 +2,12 @@
 
 Maintained by AI sessions. Update with every change to the repo.
 
+## Branch instruction - 3 October 2026
+
+Use `master` for all ongoing work and pushes. This explicit user instruction supersedes every earlier instruction to use or mirror to `main`. The local checkout now tracks `origin/master`. The remote still advertises `main` as its default at this check; that setting does not override the user's working-branch instruction. Historical entries below describe earlier deliveries only.
+
+Updated current branch references in README, the runbook and manual, and regenerated the PDF. The pre-existing runbook wording edit remains uncommitted; only the separate branch-reference correction is included. PDF text parity and the changed page's visual layout were checked. No live Monday activity occurred; the outstanding client confirmations and Day 1 implementation checks remain unchanged.
+
 ## Current instruction – 2 October 2026
 
 reconfirmed the full four-day plan in this chat. `docs/ROLLOUT_PLAN.md` now contains that current plan in full and takes precedence over earlier emails or conflicting task dates. Day 1 is core Monday setup only; dashboard/availability/targets are Day 2; automations/Claude are Day 3; review is Day 4 after 1–2 weeks of use. Later rollout days are phases, not automatically consecutive dates.

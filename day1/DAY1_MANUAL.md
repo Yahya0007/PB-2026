@@ -36,7 +36,7 @@ Use the PDF bookmarks to jump between chapters. Zoom in on screenshots when need
 
 ## Before starting: client files and scope
 
-**Repository:** use the repository root on the computer running the session. File paths below are relative to that root. Use the current main branch files.
+**Repository:** use the repository root on the computer running the session. File paths below are relative to that root. Use the current master branch files.
 
 | File | How to use it |
 |---|---|

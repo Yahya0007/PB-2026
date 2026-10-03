@@ -148,4 +148,4 @@ Tasks 45–47 organise the target list, top 20 and supplier research on the main
 | Cat / Charlotte review completed | |
 | Day 2 date and required inputs | |
 
-The preparation files are available on the repository’s `main` branch. Board creation, invitations, live imports and acceptance remain on-the-day actions; the access and logistics checks above are still unconfirmed.
+The preparation files are available on the repository’s `master` branch. Board creation, invitations, live imports and acceptance remain on-the-day actions; the access and logistics checks above are still unconfirmed.
