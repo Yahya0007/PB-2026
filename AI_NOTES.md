@@ -2,6 +2,13 @@
 
 Maintained by AI sessions. Update with every change to the repo.
 
+## Client requirements checklist - 3 October 2026
+
+- Added `day1/CLIENT_REQUIREMENTS.md` and linked it from README. The checklist follows all eight manual chapters and separates prepared names/settings/files from client confirmations and optional company branding.
+- Covers login and verification access without collecting credentials, workspace URL/name, subscription/seats, account and board roles, session logistics, board names/audience, latest task changes, Now ownership/dates, shared ownership, views, venue stages/records, current invitee emails/access and live walkthrough/handover. Later-phase inputs remain outside Day 1 prerequisites.
+- Validated proposed board/view names, labels, baseline counts, task exceptions and file references against the current manual and plan. Fetched origin; local master matched origin/master before editing. Checked local links and Git whitespace. Preserved the existing uncommitted runbook edit; no source data, PDF or live Monday state changed.
+- Remaining actions are for the client to provide/confirm the checklist inputs and for the operator to perform the manual's live setup and acceptance tests. No checklist response, subscription confirmation, invitation or live completion is implied by this document.
+
 ## Branch instruction - 3 October 2026
 
 Use `master` for all ongoing work and pushes. This explicit user instruction supersedes every earlier instruction to use or mirror to `main`. The local checkout now tracks `origin/master`. The remote still advertises `main` as its default at this check; that setting does not override the user's working-branch instruction. Historical entries below describe earlier deliveries only.
